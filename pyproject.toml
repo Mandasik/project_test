@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "tests-pro"
+version = "0.1.0"
+description = "experiment test"
+authors = ["Ruslan Latypov <stihyra@mail.ru>"]
+readme = "README.md"
+packages = [{include = "capitalizers"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
